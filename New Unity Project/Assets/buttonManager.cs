@@ -21,8 +21,14 @@ public class buttonManager : MonoBehaviour {
         SceneManager.LoadScene(menu);
     }
 
+
+
     public void exitBtn() {
         Application.Quit();
+    }
+
+    public void howtoBtn(string howTo) {
+        SceneManager.LoadScene(howTo);
     }
 
 
